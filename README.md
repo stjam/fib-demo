@@ -30,19 +30,26 @@ java -jar target/benchmark.jar -jvmArgs='-Xlog:compilation*=debug:file=compilati
 ```
 **Results that I've got:**
 
+```
 TieredCompilation
 Benchmark               Mode  Cnt    Score    Error  Units
 Main.measureFibonacci  thrpt    5  406,206 ± 44,724  ops/s
+```
 
+```
 Without JIT
 Benchmark               Mode  Cnt   Score   Error  Units
 Main.measureFibonacci  thrpt    5  18,821 ± 0,055  ops/s
+```
 
+```
 When use only C1
 Benchmark               Mode  Cnt    Score    Error  Units
 Main.measureFibonacci  thrpt    5  376,382 ± 53,193  ops/s
+```
 
+```
 When use only C2
 Benchmark               Mode  Cnt    Score   Error  Units
 Main.measureFibonacci  thrpt    5  416,779 ± 4,059  ops/s
-
+```

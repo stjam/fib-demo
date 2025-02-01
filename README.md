@@ -28,6 +28,14 @@ java -jar target/benchmark.jar -jvmArgs='-XX:+TieredCompilation -XX:TieredStopAt
 ```
 java -jar target/benchmark.jar -jvmArgs='-Xlog:compilation*=debug:file=compilation.log:time,uptime,level,tags'
 ```
+
+**My environment**
+```
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Java version: 23.0.1, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home
+OS name: "mac os x", version: "14.5", arch: "aarch64", family: "mac"
+```
+
 **Results that I've got:**
 
 ```
